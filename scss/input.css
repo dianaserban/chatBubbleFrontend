@@ -1,86 +1,100 @@
 * {
   padding: 10px;
-  font-family: 'Roboto Condensed', sans-serif; }
-
-.hoverImg:hover .chatBox {
-  display: block; }
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .bubbleImg {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .chatBox {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 @media screen and (min-width: 1366px) {
-  .chatBox {
-    width: 25%; }
-
   .dateBox {
-    width: 25%; } }
+    width: 25%;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1366px) {
   .chatBox {
-    width: 75%; }
+    width: 75%;
+  }
 
   .dateBox {
-    width: 50%; } }
+    width: 50%;
+  }
+}
 @media screen and (max-width: 768px) {
   .chatBox {
-    width: 100%; }
+    width: 100%;
+  }
 
   .dateBox {
-    width: 70%; } }
+    width: 70%;
+  }
+}
 header {
   background-color: #FFF;
   border: 1px solid #ccc;
-  border-bottom: 4px solid #ccc; }
+  border-bottom: 4px solid #ccc;
+}
 
 article {
   border: 1px solid #ccc;
-  background-image: url("https://img00.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg"); }
+  background-image: url("https://img00.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg");
+}
 
 p {
   color: black;
   letter-spacing: 1px;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 span {
-  color: #556067; }
+  color: #556067;
+}
 
 .timeClass {
-  float: right; }
+  float: right;
+}
 
 .dateBox {
   background-color: #D5DDFF;
   border-radius: 25px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .dateBox {
-  text-align: center; }
+  text-align: center;
+}
 
 /* CSS talk bubble */
 .talk-bubble {
-  margin: 20px 30px 20px 70px;
   display: inline-block;
   position: relative;
   width: 80%;
   height: auto;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+}
 
 .border {
-  border: 8px solid #666; }
+  border: 8px solid #666;
+}
 
 .round {
   border-radius: 20px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
+  -moz-border-radius: 10px;
+}
 
 /* Right triangle placed top left flush. */
 .tri-right.border.left-top:before {
-  content: ' ';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -89,10 +103,12 @@ span {
   top: -8px;
   bottom: auto;
   border: 32px solid;
-  border-color: #666 transparent transparent transparent; }
+  border-color: #666 transparent transparent transparent;
+  padding: 0;
+}
 
 .tri-right.left-top:after {
-  content: ' ';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -101,14 +117,16 @@ span {
   top: 0px;
   bottom: auto;
   border: 22px solid;
-  border-color: white transparent transparent transparent; }
+  border-color: white transparent transparent transparent;
+}
 
 /* Left triangle placed top right flush. */
 .tri-left {
-  background-color: #E6FFC5; }
+  background-color: #E6FFC5;
+}
 
 .tri-left.border.right-top:before {
-  content: ' ';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -117,10 +135,11 @@ span {
   top: -8px;
   bottom: auto;
   border: 32px solid;
-  border-color: #666 transparent transparent transparent; }
+  border-color: #666 transparent transparent transparent;
+}
 
 .tri-left.right-top:after {
-  content: ' ';
+  content: "";
   position: absolute;
   width: 0;
   height: 0;
@@ -129,12 +148,11 @@ span {
   top: 0;
   bottom: auto;
   border: 22px solid;
-  border-color: #E6FFC5 transparent transparent transparent; }
+  border-color: #E6FFC5 transparent transparent transparent;
+}
 
-.firstClass {
-  float: right; }
-
-.firstClass span:nth-child(2) {
-  float: left; }
+.myForm {
+  background: blue;
+}
 
 /*# sourceMappingURL=input.css.map */

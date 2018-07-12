@@ -1,152 +1,168 @@
-*{
-    padding:10px;
-    font-family: 'Roboto Condensed', sans-serif;
+* {
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.hoverImg:hover.chatBox{
-  display:block;
+.hoverImg:hover.chatBox {
+  //display:block;
 }
-.bubbleImg{
+
+.bubbleImg {
   display: block;
-      margin-left: auto;
-      margin-right: auto;
-      }
-      .chatBox{
-      display:none;
-        margin-left: auto;
-        margin-right: auto;
-
-      }
-      @media screen and (min-width: 1366px) {
-        .chatBox{
-          width:25%;
-        }
-        .dateBox{
-          width:25%;
-        }
-      }
-      @media screen and (min-width: 768px) and (max-width:1366px) {
-        .chatBox{
-          width:75%;
-        }
-        .dateBox{
-          width:50%;
-        }
-      }
-      @media screen and (max-width: 768px) {
-        .chatBox{
-          width:100%;
-        }
-        .dateBox{
-          width:70%;
-        }
-      }
-header{
-  background-color:#FFF;
-  border:1px solid #ccc;
-  border-bottom:4px solid #ccc;
-}
-article{
-border: 1px solid #ccc;
-background-image:url('https://img00.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg');
-}
-
-p{color:black;
-letter-spacing:1px;
-font-weight:600;
-}
-
-span{
-  color:#556067;
-}
-.timeClass{
-  float:right;
-}
-.dateBox{
-  background-color:#D5DDFF;
-  border-radius:25px;
   margin-left: auto;
   margin-right: auto;
 }
-.dateBox{text-align:center;
+
+.chatBox {
+  //display:none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media screen and (min-width: 1366px) {
+  .chatBox {
+    //width:25%;
+  }
+  .dateBox {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .chatBox {
+    width: 75%;
+  }
+  .dateBox {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chatBox {
+    width: 100%;
+  }
+  .dateBox {
+    width: 70%;
+  }
+}
+
+header {
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+article {
+  border: 1px solid #ccc;
+  background-image: url('https://img00.deviantart.net/31cf/i/2015/028/8/6/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg');
+}
+
+p {
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+span {
+  color: #556067;
+}
+
+.timeClass {
+  float: right;
+}
+
+.dateBox {
+  background-color: #D5DDFF;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dateBox {
+  text-align: center;
 }
 
 /* CSS talk bubble */
 .talk-bubble {
   display: inline-block;
   position: relative;
-	width: 80%;
-	height: auto;
-	background-color: #FFFFFF;
+  width: 80%;
+  height: auto;
+  background-color: #FFFFFF;
 }
-.border{
+
+.border {
   border: 8px solid #666;
 }
-.round{
+
+.round {
   border-radius: 20px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 
 }
 
 /* Right triangle placed top left flush. */
 .tri-right.border.left-top:before {
-	content:'';
-	position: absolute;
-	width: 0;
-	height: 0;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
   left: -40px;
-	right: auto;
+  right: auto;
   top: -8px;
-	bottom: auto;
-	border: 32px solid;
-	border-color: #666 transparent transparent transparent;
-  padding:0;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent;
+  padding: 0;
 }
-.tri-right.left-top:after{
-	content:'';
-	position: absolute;
-	width: 0;
-	height: 0;
+
+.tri-right.left-top:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
   left: -20px;
-	right: auto;
+  right: auto;
   top: 0px;
-	bottom: auto;
-	border: 22px solid;
-	border-color: white transparent transparent transparent;
+  bottom: auto;
+  border: 22px solid;
+  border-color: white transparent transparent transparent;
 }
-
-
 
 /* Left triangle placed top right flush. */
-.tri-left{
-  background-color:#E6FFC5;
+.tri-left {
+  background-color: #E6FFC5;
 }
+
 .tri-left.border.right-top:before {
-	content:'';
-	position: absolute;
-	width: 0;
-	height: 0;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
   right: -40px;
-	left: auto;
+  left: auto;
   top: -8px;
-	bottom: auto;
-	border: 32px solid;
-	border-color: #666 transparent transparent transparent;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent;
 }
-.tri-left.right-top:after{
-	content:'';
-	position: absolute;
-	width: 0;
-	height: 0;
+
+.tri-left.right-top:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
   right: -20px;
-	left: auto;
+  left: auto;
   top: 0;
-	bottom: auto;
-	border: 22px solid;
-	border-color: #E6FFC5 transparent transparent transparent;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #E6FFC5 transparent transparent transparent;
 }
-.myForm{
+
+.myForm {
   background: blue;
 }
